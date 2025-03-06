@@ -43,7 +43,9 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load the saved models
 models = {
-    'diabetes': pickle.load(open('Models/diabetes_model.sav', 'rb')),
+    'diabetes': pickle.load(open('Medical-diagnosis-using-AI/Models
+/diabetes_model.sav
+', 'rb')),
     'heart_disease': pickle.load(open('Models/heart_disease_model.sav', 'rb')),
     'parkinsons': pickle.load(open('Models/parkinsons_model.sav', 'rb')),
     'lung_cancer': pickle.load(open('Models/lungs_disease_model.sav', 'rb')),
